@@ -10,11 +10,15 @@ This is a Calculator Application programmed with Python using its standard GUI l
 
 ### Installation Prerequisites
 1. Download and install the latest version of [Python](https://www.python.org/downloads/).
-2. Check if python is properly installed along with tkinter using the following commands in your terminal:
+2. Check if python is properly installed along with its package installer using the following commands in your terminal:
 ```
 $ python --version
-$ python -m tkinter
+$ python -m pip --version
 ```
+3. If the Python package installer, pip, is not installed, get it installed using the [pip documentation](https://pip.pypa.io/en/stable/getting-started/).
+4. Install tkinter by running the following command in your terminal:
+
+    `pip install tk`
 
 ### Usage
 1. Download the repository as a ZIP or [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) the repository to your local device.
