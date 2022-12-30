@@ -16,7 +16,10 @@ $ python --version
 $ python -m pip --version
 ```
 3. If the Python package installer, pip, is not installed, get it installed using the [pip documentation](https://pip.pypa.io/en/stable/getting-started/).
-4. Install tkinter by running the following command in your terminal:
+4. Check if tkinter is installed by running the command:
+
+    `python -m tkinter`
+5. Install tkinter by running the following command in your terminal:
 
     `pip install tk`
 
